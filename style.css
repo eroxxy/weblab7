@@ -41,7 +41,7 @@ body {
     height: 25px;
 }
 .logo__text {
-    font-size: 16px;
+    font-size: 1rem;
 }
 .form, input, ::placeholder {
     color: #f6ede9;
@@ -52,7 +52,7 @@ body {
     margin: 0 82px 0 41px;
 }
 .menu__link {
-    font-size: 16px;
+    font-size: 0.8rem;
     line-height: 20px;
     text-decoration: none;
     color: var(--mainColor);
@@ -97,7 +97,7 @@ ul {
 
 .step {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -130,11 +130,11 @@ ul {
 }
 
 .about-number {
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .about-text {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
 }
 
@@ -144,12 +144,12 @@ ul {
 
 html {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--mainColor);
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 50px;
     font-weight: 400;
     text-transform: uppercase;
@@ -165,7 +165,7 @@ p {
     padding: 20px 65px;
     border: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--mainColor);
 }
 
@@ -174,7 +174,7 @@ p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     line-height: 62px;
 }
 
@@ -221,7 +221,7 @@ img {
 }
 
 .experience__number {
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
 }
 
@@ -231,7 +231,7 @@ img {
 
 .experience__text {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     text-transform: uppercase;
     text-align: center;
 }
@@ -293,7 +293,7 @@ img {
 
 .works-gallery__text h4 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 36px;
 }
 
@@ -301,14 +301,14 @@ img {
     border: none;
     display: flex;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
     align-items: center;
     margin: 0 auto 65px;
     cursor: pointer;
     position: relative;
+    color: #533738
 }
-
 
 .watch-button:hover .arrow-more {
     animation: watchButton 1s ease-in-out forwards;

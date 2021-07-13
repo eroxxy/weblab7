@@ -55,7 +55,7 @@
                     под ваш интерьер, находим магазины
                     и помогаем организовать доставку </p>
                 <button class="button">
-                    Оставить завявку
+                    Оставить заявку
                 </button>
             </div>
         </div>
@@ -205,8 +205,6 @@
         <h2>Отзывы</h2>
         
         <div class="container">
-            <label for="ok" style="display:none">Предыдущая</label>
-            <button class= "qwerty" id="ok"><-</button>
             <div class="slide" id="slide">
 
                 <div class="slide__item">
@@ -225,11 +223,11 @@
 
 
             </div>
-            <label for="no" style="display:none">Следующая</label>
-            <button class= "qwerty" id="no">-></button>
 
         </div>
 
+        <label for="eshe1" style="display:none">Смотреть ещё</label>
+            <button class="watch-button" id="eshe1">Смотреть еще <img class="arrow-more" src="img/more_arrow.svg" alt="watch-more"></button>
 
     </section>
 
@@ -240,10 +238,12 @@
                 <p class="form__p">Оставьте свои контакты. Менеджер перезвонит
                     в удобное вам время и ответит на все вопросы.</p>
                 <div class="form__item">
-                    <input class="form__input" type="text" placeholder="Ваше имя">
+                    <label for="name" style="display:none">Ваше имя</label>
+                    <input class="form__input" type="text" id="name" placeholder="Ваше имя">
                 </div>
                 <div class="form__item">
-                    <input class="form__input" type="text" placeholder="Введите телефон">
+                    <label for="phone" style="display:none">Введите телефон</label>
+                    <input class="form__input" type="text" id="phone" placeholder="Введите телефон">
                 </div>
                 <label for="yes" style="display:none">Оставить заявку</label>
                 <button class="button" id="yes">Оставить заявку</button>
